@@ -2,20 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer utilities {
+  .custom-date-picker::-webkit-calendar-picker-indicator {
+    color-scheme: light;
+    opacity: 0.35;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-left: 9.5rem;
+    cursor: pointer;
+  }   
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+::backdrop {
+  background-image: url('../../public/images/bg-island-of-dreams.png');
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+  width: 100%;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CCC;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a9a9a9;
+  cursor: pointer;
 }
