@@ -21,7 +21,7 @@ export const Card = ({ dream }) => {
         </section>
         <footer>
           <p className="absolute bottom-2 right-2 text-[#CCC] text-xs font-light px-3 pb-2">
-            {new Date(dream.date).toLocaleDateString()}
+            {new Date(dream.date).toLocaleDateString("pt-BR")}
           </p>
         </footer>
       </article>
