@@ -25,7 +25,8 @@ A web dream diary where you can document your dreams in a relaxing, tropical-the
 </br>
 
 ## 🏝️ Preview
-![Island Of Dreams Preview](https://github.com/user-attachments/assets/5bdbead8-01c3-4079-a502-0f14980339e0)
+![Island Of Dreams Preview](https://github.com/user-attachments/assets/0eeec87b-74ad-4358-95ee-ca2d5821576f)
+
 
 </br>
 
